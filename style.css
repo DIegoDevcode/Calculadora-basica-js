@@ -1,0 +1,55 @@
+html{
+    font-size: 64.2%;
+}
+
+body{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Calculadora{
+    border: 2px solid honeydew;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+}
+input{
+    background-color: cyan;
+}
+
+#display{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: yellow;
+}
+
+button:active{
+    background-color:  green;
+}
